@@ -1,33 +1,18 @@
-# Animated Scrollable Scaffold 🚀
+# Animated Scrollable Scaffold
 
-Uma biblioteca Flutter para criar headers animados incríveis que reagem ao scroll de forma simples e performática.
+Uma solução completa para criar **headers animados** e **efeitos de scroll** profissionais no Flutter sem a complexidade de lidar com Slivers manualmente.
 
-## ✨ Características
-* 🛠 **Header Dinâmico**: Controle total com `percent` e `shrinkOffset`.
-* 🧠 **Inteligente**: Detecta automaticamente se deve colapsar para 0 ou para a altura da Toolbar.
-* 📦 **Simples**: Sem necessidade de gerenciar Slivers manualmente.
-* 📱 **Fixo ou Scrollable**: Escolha o que fica fixo no rodapé com o `bottomWidget`.
+## O que faz este pacote?
+Este pacote resolve o problema de criar cabeçalhos que precisam diminuir de tamanho, mudar de cor ou desaparecer conforme o usuário rola a lista, mantendo um desempenho de 60fps.
 
-## 🚀 Como usar
+### Principais Funcionalidades:
+* **Header Reativo:** Use o `percent` (0.0 a 1.0) para animar qualquer widget no topo.
+* **Altura Inteligente:** Detecta automaticamente se deve colapsar para o tamanho de uma AppBar.
+* **Header Fixo (Sticky):** O cabeçalho nunca foge da tela, ele apenas se adapta.
+* **Sem Erros de Layout:** Proteção nativa contra `Infinite Height` e `Overflow`.
 
-```dart
-AnimatedScrollableScanfold(
-  expandedHeight: 250.0,
-  appBar: AppBar(title: Text("Meu App")), // Opcional
-  header: (context, shrinkOffset, percent) {
-    return Center(
-      child: Opacity(
-        opacity: percent,
-        child: Icon(Icons.star, size: 50 * percent),
-      ),
-    );
-  },
-  items: [
-    ListTile(title: Text("Item 1")),
-    ListTile(title: Text("Item 2")),
-  ],
-  bottomWidget: ElevatedButton(
-    onPressed: () {},
-    child: Text("Ação Fixa"),
-  ),
-)
+## Instalação
+Adicione ao seu `pubspec.yaml`:
+```yaml
+dependencies:
+  animated_scrollable: ^1.0.0

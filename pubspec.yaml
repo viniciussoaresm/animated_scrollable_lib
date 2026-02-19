@@ -1,6 +1,6 @@
 name: animated_scrollable
-description: A customizable animated scrollable scaffold with flexible header and items list.
-version: 1.0.0
+description: Um scaffold com header animado para Flutter. Crie cabeçalhos que encolhem e reagem ao scroll de forma simples, com controle de porcentagem e rodapé fixo
+version: 1.0.1
 homepage: https://github.com/viniciussoaresm/animated_scrollable_lib
 
 environment:
@@ -15,3 +15,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+
+topics:
+  - ui
+  - animacao
+  - scroll
+  - header
+  - interface
