@@ -11,3 +11,6 @@
 * Melhora na documentação (README) agora em Português.
 * Atualização da descrição do pacote para melhor SEO.
 * Adição de tópicos de busca.
+
+## 1.0.2
+* Adicionada aba de exemplo (Example tab) para demonstração de uso.
