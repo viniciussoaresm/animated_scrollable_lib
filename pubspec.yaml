@@ -1,6 +1,7 @@
 name: animated_scrollable
-description: "Um Scaffold customizado para Flutter que permite criar headers animados que reduzem de tamanho suavemente conforme o scroll do conteúdo."
-version: 0.0.1
+description: A customizable animated scrollable scaffold with flexible header and items list.
+version: 1.0.0
+homepage: https://github.com/viniciussoaresm/animated_scrollable_lib
 
 environment:
   sdk: ^3.10.8
