@@ -1,0 +1,8 @@
+# CHANGELOG
+
+## 1.0.0
+* **Initial Release**: Estrutura base do AnimatedScrollableScaffold.
+* **Header Builder**: Implementado callback que retorna `shrinkOffset` e `percent`.
+* **Smart Height**: Ajuste automático da altura colapsada baseada na presença de `AppBar`.
+* **Overflow Protection**: Header blindado com `OverflowBox` e `ClipRect`.
+* **Developer Experience**: Simplificação do uso (passagem de lista de widgets direta).

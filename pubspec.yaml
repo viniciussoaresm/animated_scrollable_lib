@@ -1,0 +1,16 @@
+name: animated_scrollable
+description: "Um Scaffold customizado para Flutter que permite criar headers animados que reduzem de tamanho suavemente conforme o scroll do conteúdo."
+version: 0.0.1
+
+environment:
+  sdk: ^3.10.8
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
