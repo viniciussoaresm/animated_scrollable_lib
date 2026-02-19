@@ -4,10 +4,11 @@ packages:
   animated_scrollable:
     dependency: "direct main"
     description:
-      path: "../.."
-      relative: true
-    source: path
-    version: "1.0.0"
+      name: animated_scrollable
+      sha256: "9191c30466ce3ac89ae2540b7f8beedda5c7a6a65d7c6bc7996afb19e5f2c6b0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   async:
     dependency: transitive
     description:
